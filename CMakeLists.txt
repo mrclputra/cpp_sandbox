@@ -10,3 +10,5 @@ add_subdirectory(external/spdlog)
 
 # projects
 add_subdirectory(projects/template)
+add_subdirectory(projects/01_multifile)
+add_subdirectory(projects/02_headers)
