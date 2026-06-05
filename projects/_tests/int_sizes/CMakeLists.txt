@@ -1,0 +1,1 @@
+add_executable(int_sizes main.cpp)

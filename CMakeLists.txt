@@ -9,11 +9,14 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_subdirectory(external/spdlog)
 
 # projects
-add_subdirectory(projects/template)
-add_subdirectory(projects/01_multifile)
-add_subdirectory(projects/02_headers)
-add_subdirectory(projects/03_sphere)
-add_subdirectory(projects/04_kinematics)
+#add_subdirectory(projects/template)
+#add_subdirectory(projects/01_multifile)
+#add_subdirectory(projects/02_headers)
+#add_subdirectory(projects/03_sphere)
+#add_subdirectory(projects/04_kinematics)
+add_subdirectory(projects/_tests/int_sizes)
 
-# tests
-add_subdirectory(projects/_tests/datatype_sizes)
+## tests
+#add_subdirectory(projects/_tests/datatype_sizes)
+#add_subdirectory(projects/_tests/file_ops)
+#add_subdirectory(projects/_tests/bullshit)
