@@ -14,7 +14,8 @@ add_subdirectory(external/spdlog)
 #add_subdirectory(projects/02_headers)
 #add_subdirectory(projects/03_sphere)
 #add_subdirectory(projects/04_kinematics)
-add_subdirectory(projects/05_chars)
+#add_subdirectory(projects/05_chars)
+add_subdirectory(projects/06_calculator)
 #add_subdirectory(projects/_tests/int_sizes)
 
 ## tests
