@@ -3,12 +3,9 @@
 
 int main()
 {
-    for (int i = 0; i < 128; i++) {
-        if (i == 127)
-            i = 0;
-
-        std::cout << static_cast<char>(i);
-        std::this_thread::sleep_for(std::chrono::milliseconds(10));
-    }
+    char c{};
+    std::cout << "enter a character: ";
+    std::cin >> c;
+    std::cout << "value: " << static_cast<int>(c);
     return 0;
 }
