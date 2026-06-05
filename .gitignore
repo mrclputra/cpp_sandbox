@@ -13,5 +13,6 @@ build/
 # clion stuff
 .idea/
 
+cmake-build-debug-mingw/
 cmake-build-debug/
 cmake-build-release/

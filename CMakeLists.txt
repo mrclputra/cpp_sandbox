@@ -14,3 +14,6 @@ add_subdirectory(projects/01_multifile)
 add_subdirectory(projects/02_headers)
 add_subdirectory(projects/03_sphere)
 add_subdirectory(projects/04_kinematics)
+
+# tests
+add_subdirectory(projects/_tests/datatype_sizes)
