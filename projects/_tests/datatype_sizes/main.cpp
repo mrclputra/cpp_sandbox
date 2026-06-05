@@ -1,29 +1,32 @@
+#include <iomanip>
 #include <iostream>
 
 int main()
 {
-    std::cout << "bool " << sizeof(bool) << "\n";
+    std::cout << std::left;
+
+    std::cout << std::setw(16) << "bool " << sizeof(bool) << " bytes\n";
     std::cout << "\n";
 
-    std::cout << "char " << sizeof(char) << "\n";
-    std::cout << "wchar_t " << sizeof(wchar_t) << "\n";
-    std::cout << "char8_t " << sizeof(char8_t) << "\n";
-    std::cout << "char16_t " << sizeof(char16_t) << "\n";
-    std::cout << "char32_t " << sizeof(char32_t) << "\n";
+    std::cout << std::setw(16) << "char " << sizeof(char) << " bytes\n";
+    std::cout << std::setw(16) << "wchar_t " << sizeof(wchar_t) << " bytes\n";
+    std::cout << std::setw(16) << "char8_t " << sizeof(char8_t) << " bytes\n";
+    std::cout << std::setw(16) << "char16_t " << sizeof(char16_t) << " bytes\n";
+    std::cout << std::setw(16) << "char32_t " << sizeof(char32_t) << " bytes\n";
     std::cout << "\n";
 
-    std::cout << "short " << sizeof(short) << "\n";
-    std::cout << "int " << sizeof(int) << "\n";
-    std::cout << "long " << sizeof(long) << "\n";
-    std::cout << "long long " << sizeof(long long) << "\n";
+    std::cout << std::setw(16) << "short " << sizeof(short) << " bytes\n";
+    std::cout << std::setw(16) << "int " << sizeof(int) << " bytes\n";
+    std::cout << std::setw(16) << "long " << sizeof(long) << " bytes\n";
+    std::cout << std::setw(16) << "long long " << sizeof(long long) << " bytes\n";
     std::cout << "\n";
 
-    std::cout << "float " << sizeof(float) << "\n";
-    std::cout << "double " << sizeof(double) << "\n";
-    std::cout << "long double " << sizeof(long double) << "\n";
+    std::cout << std::setw(16) << "float " << sizeof(float) << " bytes\n";
+    std::cout << std::setw(16) << "double " << sizeof(double) << " bytes\n";
+    std::cout << std::setw(16) << "long double " << sizeof(long double) << " bytes\n";
     std::cout << "\n";
 
-    std::cout << "nullptr " << sizeof(std::nullptr_t) << "\n";
+    std::cout << std::setw(16) << "nullptr " << sizeof(std::nullptr_t) << " bytes\n";
 
     return 0;
 }
