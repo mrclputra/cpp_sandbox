@@ -1,0 +1,18 @@
+CMakeCache.txt
+CMakeFiles
+CmakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+build/
+
+# clion stuff
+.idea/tasks.xml
+.idea/workspace.xml
+
+cmake-build-debug/
+cmake-build-release/
