@@ -1,0 +1,1 @@
+add_executable(09_string main.cpp)
