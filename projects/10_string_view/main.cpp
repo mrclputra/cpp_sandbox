@@ -29,7 +29,7 @@ int main()
     std::cout << s_two << '\n'; // s will be replaced with "Hello, world!" at compile-time
 
     // !! be careful because string_view does not have ownership of the string it is viewing
-    //      
+    //      we can also use std::string& references instead of string_view (<C++17)
 
     return 0;
 }
