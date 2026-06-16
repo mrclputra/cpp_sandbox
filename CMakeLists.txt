@@ -19,7 +19,8 @@ add_subdirectory(external/spdlog)
 #add_subdirectory(projects/07_gravity)
 #add_subdirectory(projects/08_binary)
 #add_subdirectory(projects/09_string)
-add_subdirectory(projects/10_string_view)
+#add_subdirectory(projects/10_string_view)
+add_subdirectory(projects/11_lambda_thread)
 #add_subdirectory(projects/_tests/int_sizes)
 
 ## tests

@@ -1,0 +1,1 @@
+add_executable(11_lambda_thread main.cpp)
